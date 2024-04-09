@@ -1,3 +1,5 @@
+//RFI TAG:driverName=SYSTEM
+
 /**
 * @fn extern void onReset();
 * @alias onReset

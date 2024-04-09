@@ -1,0 +1,13 @@
+EMIC:setOutput(TARGET:generate.txt)
+
+Hola Mundo 1
+
+
+    EMIC:setOutput(TARGET:generate2.txt)
+
+
+Hola Mundo 2
+
+    EMIC:restoreOutput
+
+EMIC:restoreOutput

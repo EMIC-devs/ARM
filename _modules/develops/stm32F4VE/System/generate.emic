@@ -1,6 +1,11 @@
 EMIC:setOutput(TARGET:generate.txt)
 
-EMIC:setInput(DEV:_main/main.emic)
+    EMIC:copy:(SYS:inc/userFncFile.h > TARGET:inc/userFncFile.h)
+    EMIC:copy:(SYS:userFncFile.c > TARGET:src/userFncFile.c)
 
+    EMIC:setInput(DEV:_api/Indicators/LEDs/led.emic,name=ledRX,pin=Led1)
+
+
+    EMIC:setInput(DEV:_main/main.emic)
 
 EMIC:restoreOutput

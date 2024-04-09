@@ -1,0 +1,4 @@
+
+EMIC:copy(inc/main.h > TARGET:inc/main.h)
+
+EMIC:copy(src/main.c > TARGET:src/main.c)

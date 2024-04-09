@@ -4,16 +4,16 @@
 
 int main(void)
 {
-	EMIC:ifdef usedEvent.SystemConfig
+	//EMIC:ifdef usedEvent.SystemConfig
 	SystemConfig();
-	EMIC:endif
+	//EMIC:endif
 	//se inicializan drivers
 
 	.{inits.*}.();
 
-	EMIC:ifdef usedEvent.onReset
+	//EMIC:ifdef usedEvent.onReset
 	onReset();
-	EMIC:endif
+	//EMIC:endif
 
 	while (1)
 	{

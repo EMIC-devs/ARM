@@ -1,4 +1,19 @@
+/**
+* @fn extern void onReset();
+* @alias onReset
+* @brief When the module and all its functions are ready. 
+* @return Nothing
+*/
+
+
+
+/**
+* @fn extern void SystemConfig();
+* @alias SystemConfig
+* @brief before initializing the drivers, recommended for initializing system variables. 
+* @return Nothing
+*/
+
 
 EMIC:copy(inc/main.h > TARGET:inc/main.h)
-
 EMIC:copy(src/main.c > TARGET:src/main.c)
